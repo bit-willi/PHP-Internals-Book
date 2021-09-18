@@ -1,8 +1,8 @@
-Table Of Contents
-=================
+Tabela de conteúdos 
+===================
 
-PHP 7 and PHP 8
----------------
+PHP 7 e PHP 8
+-------------
 
 .. toctree::
     :maxdepth: 3
@@ -41,14 +41,14 @@ PHP 5
     php5/introduction.rst
     php5/build_system.rst
 
-* Creating PHP extensions
+* Criando extensões PHP
 
 .. toctree::
     :maxdepth: 2
 
     php5/zvals.rst
 
-* Implementing functions
+* Implementando funções
 
 .. toctree::
     :maxdepth: 2
@@ -56,10 +56,10 @@ PHP 5
     php5/hashtables.rst
     php5/classes_objects.rst
 
-Testing PHP Source
-------------------
+Testando código PHP
+-------------------
 
-Writing tests applies to both PHP 5 & PHP 7.
+Escrevendo testes aplicáveis para ambos, PHP 5 e PHP 7
 
 .. toctree::
     :maxdepth: 3
@@ -70,8 +70,8 @@ Writing tests applies to both PHP 5 & PHP 7.
     tests/phpt_file_structure.rst
     tests/examining_failed_test_output.rst
 
-Index and search
-================
+Índice e pesquisa
+=================
 
 * :ref:`genindex`
 * :ref:`search`
