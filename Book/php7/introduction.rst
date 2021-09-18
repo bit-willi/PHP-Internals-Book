@@ -1,22 +1,21 @@
-Introduction
-============
+Introdução
+==========
 
-This book is a collaborative effort between several developers of the PHP language to better document and describe how
-PHP works internally.
+Este livro é um esforço colaborativo entre vários desenvolvedores da linguagem PHP para documentar e descrever 
+melhor como PHP funciona internamente.
 
-There are three primary goals of this book:
+Existem três objetivos principais neste livro:
 
- * Document and describe how PHP internals work.
- * Document and describe how to extend the language with extensions.
- * Document and describe how you can interact with the community to develop PHP itself.
+ * Documentar e descrever como o PHP funciona internamente.
+ * Documentar e descrever como estender a linguagem com extensões.
+ * Documentar e descrever como você pode interagir com a comunidade para desenvolver o próprio PHP.
 
-This book is primarily targeted at developers who have experience in the C programming language. However, wherever
-possible we will attempt to distill the information and summarize it so that developers who don't know C well, will
-still be able to understand the content.
+Este livro é principalmente direcionado a programadores que tem experiência com a linguagem de programação C, 
+entretanto, iremos tentar resumi-las para que mesmo aqueles que não conhecem sejam capazes de entender o conteúdo.
 
-However, let us insist. You won't be able to achieve something productive, stable (crash free under any platform),
-performant and useful, if you don't know the C language. Here are some pretty nice online resources about the C
-language itself, its ecosystem and build tools, and Operating System APIs:
+No entanto, vamos insistir, você não será capaz de alcançar algo produtivo, estável (que não quebre em alguma
+plataforma), performático e útil se você não conhece a linguagem C. Aqui algumas fontes uteis para aprender C,
+seu ecossistema, ferramentas de build e APIs do sistema operacional:
 
 * http://www.tenouk.com/
 * https://en.wikibooks.org/wiki/C_Programming
@@ -25,8 +24,9 @@ language itself, its ecosystem and build tools, and Operating System APIs:
 * http://www.faqs.org/docs/Linux-HOWTO/Program-Library-HOWTO.html
 * http://www.iecc.com/linker/linker10.html
 
-We also highly recommend you some books. You'll learn with them how to efficiently use the C language, and how to
-make it translate to efficient CPU instructions so that you can design strong/fast/reliable and secure programs.
+Nós também recomendamos fortemente alguns livros, com eles você irá aprender como usar a linguagem C de maneira 
+eficiente, e também como traduzir instruções da CPI para poder projetar programas resilientes,rapidos, confiáveis
+e seguros.
 
 * The C Programming Language (Ritchie & Kernighan)
 * Advanced Topics in C Core Concepts in Data Structures
@@ -37,10 +37,12 @@ make it translate to efficient CPU instructions so that you can design strong/fa
 * Hackers Delight
 * Write Great Code (2 Volumes)
 
-.. note:: This book is Work-In-Progress and some chapters have not been written yet. We don't pay attention to a
-          specific order, but add content as we feel.
+.. note:: Este livro esta em progresso e alguns capitulos ainda não foram escritos. Nós não temos uma ordem 
+          específica em mente, mas estaremos adicionando conteúdo.
 
-The repository for this book is available on GitHub_. Please report issues and provide feedback on the `issue tracker`_.
+O repositório para este livro esta disponível em GitHub_. Por favor, reporte erros, envie comentários e sugestões 
+nas issues_.
 
 .. _GitHub: https://github.com/phpinternalsbook/PHP-Internals-Book
-.. _issue tracker: https://github.com/phpinternalsbook/PHP-Internals-Book/issues
+.. _issues: https://github.com/phpinternalsbook/PHP-Internals-Book/issues
+
