@@ -22,7 +22,6 @@ seu ecossistema, ferramentas de build e APIs do sistema operacional:
 * http://c-faq.com/
 * https://www.gnu.org/software/libc/
 * http://www.faqs.org/docs/Linux-HOWTO/Program-Library-HOWTO.html
-* http://www.iecc.com/linker/linker10.html
 
 Nós também recomendamos fortemente alguns livros, com eles você irá aprender como usar a linguagem C de maneira 
 eficiente, e também como traduzir instruções da CPI para poder projetar programas resilientes,rapidos, confiáveis
