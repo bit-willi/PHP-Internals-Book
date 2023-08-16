@@ -1,19 +1,17 @@
-
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Table Of Contents &#8212; PHP Internals Book</title>
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/haiku.css" />
-    <link rel="stylesheet" type="text/css" href="_static/style.css" />
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/doctools.js"></script>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/haiku.css?v=d31ea6cb" />
+    <link rel="stylesheet" type="text/css" href="_static/style.css?v=38da9290" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=359c27e9"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=4825356b"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Introduction" href="php7/introduction.html" /> 
@@ -35,9 +33,9 @@
         
         
   <section id="table-of-contents">
-<h1>Table Of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">¶</a></h1>
+<h1>Table Of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this heading">¶</a></h1>
 <section id="php-7-and-php-8">
-<h2>PHP 7 and PHP 8<a class="headerlink" href="#php-7-and-php-8" title="Permalink to this headline">¶</a></h2>
+<h2>PHP 7 and PHP 8<a class="headerlink" href="#php-7-and-php-8" title="Permalink to this heading">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="php7/introduction.html">Introduction</a></li>
@@ -106,8 +104,17 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="php7/internal_types/hashtables.html">HashTables: zend_array</a></li>
-<li class="toctree-l2"><a class="reference internal" href="php7/internal_types/functions.html">Functions: zend_function</a></li>
-<li class="toctree-l2"><a class="reference internal" href="php7/internal_types/objects.html">Objects and classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="php7/internal_types/functions.html">Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="php7/internal_types/functions/callables.html">PHP Callables</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="php7/classes_objects.html">Classes and objects</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="php7/classes_objects/object_handlers.html">Object handlers</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="php7/classes_objects/object_handlers.html#an-overview">An Overview</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="php7/extensions_design.html">Extensions design</a><ul>
@@ -184,7 +191,9 @@
 <li class="toctree-l3"><a class="reference internal" href="php7/memory_management/zend_memory_manager.html#the-two-main-kind-of-dynamic-memory-pools-in-php">The two main kind of dynamic memory pools in PHP</a></li>
 <li class="toctree-l3"><a class="reference internal" href="php7/memory_management/zend_memory_manager.html#zend-memory-manager-api">Zend Memory Manager API</a></li>
 <li class="toctree-l3"><a class="reference internal" href="php7/memory_management/zend_memory_manager.html#zend-memory-manager-debugging-shields">Zend Memory Manager debugging shields</a></li>
+<li class="toctree-l3"><a class="reference internal" href="php7/memory_management/zend_memory_manager.html#lifecycle">Lifecycle</a></li>
 <li class="toctree-l3"><a class="reference internal" href="php7/memory_management/zend_memory_manager.html#zendmm-internal-design">ZendMM internal design</a></li>
+<li class="toctree-l3"><a class="reference internal" href="php7/memory_management/zend_memory_manager.html#hooking-into-the-zendmm">Hooking into the ZendMM</a></li>
 <li class="toctree-l3"><a class="reference internal" href="php7/memory_management/zend_memory_manager.html#common-errors-and-mistakes">Common errors and mistakes</a></li>
 </ul>
 </li>
@@ -201,15 +210,19 @@
 <li class="toctree-l1"><a class="reference internal" href="php7/zend_engine.html">Zend engine</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="php7/zend_engine/zend_compiler.html">Zend Compiler</a></li>
 <li class="toctree-l2"><a class="reference internal" href="php7/zend_engine/zend_executor.html">Zend Executor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="php7/zend_engine/zend_opcache.html">Zend OPCache</a></li>
+<li class="toctree-l2"><a class="reference internal" href="php7/zend_engine/zend_opcache.html">Zend opcache</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="php7/debugging.html">Debugging with GDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="php7/debugging.html">Debugging with GDB</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="php7/debugging.html#debug-symbols">Debug symbols</a></li>
+<li class="toctree-l2"><a class="reference internal" href="php7/debugging.html#debugging-the-vm">Debugging the VM</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </section>
 <section id="php-5">
-<h2>PHP 5<a class="headerlink" href="#php-5" title="Permalink to this headline">¶</a></h2>
+<h2>PHP 5<a class="headerlink" href="#php-5" title="Permalink to this heading">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="php5/introduction.html">Introduction</a></li>
@@ -260,7 +273,7 @@
 </div>
 </section>
 <section id="testing-php-source">
-<h2>Testing PHP Source<a class="headerlink" href="#testing-php-source" title="Permalink to this headline">¶</a></h2>
+<h2>Testing PHP Source<a class="headerlink" href="#testing-php-source" title="Permalink to this heading">¶</a></h2>
 <p>Writing tests applies to both PHP 5 &amp; PHP 7.</p>
 <div class="toctree-wrapper compound">
 <ul>
@@ -296,7 +309,7 @@
 </section>
 </section>
 <section id="index-and-search">
-<h1>Index and search<a class="headerlink" href="#index-and-search" title="Permalink to this headline">¶</a></h1>
+<h1>Index and search<a class="headerlink" href="#index-and-search" title="Permalink to this heading">¶</a></h1>
 <ul class="simple">
 <li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
 <li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
